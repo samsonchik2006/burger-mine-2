@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-image: url("./img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 34px;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width: 172px;
+    height: 66px;
+}
+.links{
+    width: 878px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 383px;
+}
+.link{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: ease .4s;
+}
+.link:hover{
+    font-weight: 700;
+}
+.section-conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 53px;
+    font-weight: 500;
+    width: 50%;
+    margin-top: 210px;
+}
+p{
+    width: 50%;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.cnopka{
+    text-decoration: none;
+    padding: 19px 48px;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #E35301;
+    transition: ease .4s;
+
+}
+.cnopka:hover{
+    background-color: #e68750;
+}
+.section-cnopca{
+    margin-top: 40px;
+}
+
